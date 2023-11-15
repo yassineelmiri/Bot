@@ -4,9 +4,9 @@ import subprocess
 from datetime import datetime, timedelta
 
 # Début du 1er novembre 2023
-start_date = datetime(2023, 11, 1)
+start_date = datetime(2023, 11, 15)
 # Fin au 1er janvier 2024
-end_date = datetime(2024, 1, 1)
+end_date = datetime(2023, 12, 10)
 
 current_date = start_date
 
