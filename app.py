@@ -4,8 +4,8 @@ import subprocess
 from datetime import datetime, timedelta
 
 # Définir les dates de début et de fin
-start_date = datetime(2023, 11, 1)
-end_date = datetime(2024, 1, 1)
+start_date = datetime(2024, 1, 1)
+end_date = datetime(2024, 5, 17)
 
 # Boucle pour chaque jour dans la plage de dates spécifiée
 current_date = start_date
