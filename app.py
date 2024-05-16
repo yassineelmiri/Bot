@@ -1,12 +1,11 @@
 import os 
-from random import randint
+import random
 
-for i in range(1 , 365):
-    for j in range(0 , randint(1, 10)):
-        d =  str(i) + ' days ago '
-        with open ('file.txt', 'a') as file:
-            file.write(d)
-            os.system('git add .')
-            os.system('git commit --date="' + d + '" -m "commit"')
-
+for i in range(26):
+    d =  str(i) + ' days ago '
+    rand = random.randrange(11, 12)
+    with open('file.txt', 'a') as file:
+        file.write(d + '\n')
+        os.system('git add .')
+        os.system('git commit --date=" 2023'+str(rand)+'-'+d+'" -m "test"')
 os.system('git push -u origin main')
